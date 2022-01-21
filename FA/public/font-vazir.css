@@ -1,0 +1,49 @@
+body {
+    font-family: vazir, serif;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: vazir;
+    src: url("font-vazir/Vazir-Light-FD-WOL.eot");
+    src: url("font-vazir/Vazir-Light-FD-WOL.ttf");
+    src: url("font-vazir/Vazir-Light-FD-WOL.woff");
+    src: url("font-vazir/Vazir-Light-FD-WOL.woff2");
+    font-weight: 200px;
+}
+
+@font-face {
+    font-family: vazir;
+    src: url("font-vazir/Vazir-Thin-FD-WOL.eot");
+    src: url("font-vazir/Vazir-Thin-FD-WOL.ttf");
+    src: url("font-vazir/Vazir-Thin-FD-WOL.woff");
+    src: url("font-vazir/Vazir-Thin-FD-WOL.woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: vazir;
+    src: url("font-vazir/Vazir-Medium-FD-WOL.eot");
+    src: url("font-vazir/Vazir-Medium-FD-WOL.ttf");
+    src: url("font-vazir/Vazir-Medium-FD-WOL.woff");
+    src: url("font-vazir/Vazir-Medium-FD-WOL.woff2");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: vazir;
+    src: url("font-vazir/Vazir-Bold-FD-WOL.eot");
+    src: url("font-vazir/Vazir-Bold-FD-WOL.ttf");
+    src: url("font-vazir/Vazir-Bold-FD-WOL.woff");
+    src: url("font-vazir/Vazir-Bold-FD-WOL.woff2");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: vazir;
+    src: url("font-vazir/Vazir-Black-FD-WOL.eot");
+    src: url("font-vazir/Vazir-Black-FD-WOL.ttf");
+    src: url("font-vazir/Vazir-Black-FD-WOL.woff");
+    src: url("font-vazir/Vazir-Black-FD-WOL.woff2");
+    font-weight: 800;
+}

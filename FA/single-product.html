@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>final</title>
+        
+        <!--                   link                 -->
+
+        <link rel="stylesheet" href="public/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="public/bootstrap/js/dist/toast.js.map">
+        <link rel="stylesheet" href="public/font-vazir.css">
+        <link rel="stylesheet" href="public/fontawesome/icon/css/all.css">
+        <link rel="stylesheet" href="public/fontawesome-pro-5.15.3-ulabs/fontawesome-pro-5.15.3-web-ulabs/css/all.css">
+        <link rel="stylesheet" href="public/swiper/swiper.min.css">
+        <link rel="stylesheet" href="public/swiper/swiper-bundle.min.css">
+        
+        <!-- header -->
+        <link rel="stylesheet" href="assets/css/header.css">
+       
+        <!-- main -->
+        <link rel="stylesheet" href="assets/css/main-single-product.css">
+        <link rel="stylesheet" href="assets/css/swiper.css">
+        
+        <!-- footer -->
+        <link rel="stylesheet" href="assets/css/footer.css">
+    </head>
+    <body>
+        
+        <!-- header -->
+        <header class="header-final bg-white">
+            <main class="px-1 py-2 py-sm-0 d-flex align-items-center justify-content-between">
+                <h1 class="header-logo d-none d-lg-block">
+                    <img src="public/image/logo-png mee.png" alt="logo">
+                </h1>
+                <div class="header-search">
+                    <a href="#" class="text-decoration-none header-search-icon d-flex align-items-center"><i class="fal fa-search ms-2"></i></a>
+                    <input class="header-search-input" type="search" name="search" placeholder="جست و جو در همه ی محصولات">
+                </div>
+                <div class="icon-sm d-lg-none d-flex align-items-center my-auto">
+                    <a href="#" class="text-decoration-none"><i class="fal fa-bars mt-1 ps-2"></i></a>
+                    <a href="#" class="text-decoration-none d-flex align-items-center"><i class="fal fa-language me-1 ps-1"></i>زبان</a>
+                </div>
+                <div class="header-logo d-lg-none">
+                    <img src="public/image/logo-png mee.png" alt="logo">
+                </div>
+                <!-- accont-header -->
+                <div class="d-flex align-items-center justify-content-center">
+                    <button type="button" class="btn-account d-none d-lg-flex align-items-center align-items-center"><i class="fal fa-user"></i>ورود به حساب کاربری </button>
+                    <a href="#" class="icon text-decoration-none d-flex align-items-center"><i class="fal fa-user d-lg-none"></i></a>
+                    <a href="#" class="icon text-decoration-none d-flex align-items-center"><i class="fal fa-search d-lg-none me-2 ms-1"></i></a>
+                    <a href="#" class="icon text-decoration-none align-items-center d-none d-lg-flex"><i class="fal fa-language ms-1 fa-2x"></i>زبان</a>
+                    <span class="me-2">|</span>
+                    <a href="#" class="shop text-dark d-flex text-decoration-none align-items-center">
+                        <div class="circle-shop">5</div>
+                        <i class="fal fa-shopping-cart shopping"></i>
+                    </a>
+                </div>
+            </main>
+            <nav>
+                <ul class="list-unstyled d-flex mt-2 p-0 pe-1">
+                    <li class="ms-4 p-0 "><a href="#" class="text-decoration-none">صفحه اصلی</a></li>
+                    <li class="ms-4 productList"><a href="#" class="text-decoration-none d-flex align-items-center justify-content-center"><i class="fas fa-sort-down mb-2"></i> محصولات و خدمات</a>
+                        <ul class="Subcategory-products list-unstyled p-0">
+                            <div class="d-flex align-items-start">
+                                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                    <button class="active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                        دستگاه ها
+                                    </button>
+                                    <button class="" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                                        محصولات
+                                    </button>
+                                    <button class="" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                                        خدمات
+                                    </button>
+                                </div>
+                                <div class="tab-content" id="v-pills-tabContent">
+                                    <div class="tab-pane fade pt-3 px-3 show active row" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                        <div class="d-flex flex-wrap">
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">مولتی شیپ</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">مولتی شیپ</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">مولتی شیپ</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">مولتی شیپ</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">مولتی شیپ</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">مولتی شیپ</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">مولتی شیپ</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">مولتی شیپ</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">مولتی شیپ</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">مولتی شیپ</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">مولتی شیپ</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">مولتی شیپ</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                        <div class="p-3">
+                                            <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                <div class="products-img m-1">
+                                                    <img src="public/image/index/er.png" alt="Subcategory-products-img">
+                                                </div>
+                                                <span class="Subcategory-products-title">مواد مصرفی دستگاه ها</span>
+                                            </a>
+                                            <a href="#" class="Subcategory-products-figure mt-3 text-decoration-none d-flex align-items-center ms-4">
+                                                <div class="products-img m-1">
+                                                    <img src="public/image/index/rt.png" alt="Subcategory-products-img">
+                                                </div>
+                                                <span class="Subcategory-products-title">بوتاکس</span>
+                                            </a>
+                                            <a href="#" class="Subcategory-products-figure mt-3 text-decoration-none d-flex align-items-center ms-4">
+                                                <div class="products-img m-1">
+                                                    <img src="public/image/index/we.png" alt="Subcategory-products-img">
+                                                </div>
+                                                <span class="Subcategory-products-title">ژل</span>
+                                            </a>
+                                            <a href="#" class="Subcategory-products-figure mt-3 text-decoration-none d-flex align-items-center ms-4">
+                                                <div class="products-img m-1">
+                                                    <img src="public/image/index/yu.png" alt="Subcategory-products-img">
+                                                </div>
+                                                <span class="Subcategory-products-title">مواد مزو تراپی</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                        <div class="p-3">
+                                            <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                <div class="products-img m-1">
+                                                    <img src="public/image/index/er.png" alt="Subcategory-products-img">
+                                                </div>
+                                                <span class="Subcategory-products-title">دفاتر خدمات پس از فروش</span>
+                                            </a>
+                                            <a href="#" class="Subcategory-products-figure mt-3 text-decoration-none d-flex align-items-center ms-4">
+                                                <div class="products-img m-1">
+                                                    <img src="public/image/index/rt.png" alt="Subcategory-products-img">
+                                                </div>
+                                                <span class="Subcategory-products-title">بازدید دوره ای از مطب</span>
+                                            </a>
+                                            <a href="#" class="Subcategory-products-figure mt-3 text-decoration-none d-flex align-items-center ms-4">
+                                                <div class="products-img m-1">
+                                                    <img src="public/image/index/we.png" alt="Subcategory-products-img">
+                                                </div>
+                                                <span class="Subcategory-products-title">خدمات</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="ms-4 productList"><a href="#" class="text-decoration-none d-flex align-items-center justify-content-center"><i class="fas fa-sort-down mb-2"></i>مقالات</a>
+                        <ul class="Subcategory-products-articles list-unstyled p-0">
+                            <div class="d-flex align-items-center justify-content-center flex-column">
+                                <li class="Subcategory-products-articles-li"><a href="#" class="Subcategory-products-articles-a text-decoration-none">مقالات 1</a></li>
+                                <li class="Subcategory-products-articles-li"><a href="#" class="Subcategory-products-articles-a text-decoration-none">مقالات 2</a></li>
+                                <li class="Subcategory-products-articles-li"><a href="#" class="Subcategory-products-articles-a text-decoration-none">مقالات 3</a></li>
+                                <li class="Subcategory-products-articles-li"><a href="#" class="Subcategory-products-articles-a text-decoration-none border-bottom-0">مقالات 4</a></li>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="ms-4 productList"><a href="#" class="text-decoration-none d-flex align-items-center justify-content-center"><i class="fas fa-sort-down mb-2"></i>رویداد</a>
+                        <ul class="Subcategory-products-event list-unstyled p-0">
+                            <div class="d-flex align-items-center justify-content-center flex-column">
+                                <li class="Subcategory-products-articles-li"><a href="#" class="Subcategory-products-articles-a text-decoration-none">ورکشاپ ها</a></li>
+                                <li class="Subcategory-products-articles-li"><a href="#" class="Subcategory-products-articles-a text-decoration-none">رویدادهای پزشکی</a></li>
+                                <li class="Subcategory-products-articles-li"><a href="#" class="Subcategory-products-articles-a text-decoration-none">وبیناراموزشی</a></li>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="ms-4"><a href="#" class="text-decoration-none">استخدام</a></li>
+                    <li class="ms-4"><a href="#" class="text-decoration-none">درباره ما</a></li>
+                    <li class="ms-4"><a href="#" class="text-decoration-none">ارتباط با ما</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- main -->
+        <main class="single-main py-4">
+
+            <!-- single-product -->
+            <section class="single-product container">
+                <!-- single-product-header -->
+                <header class="single-product-header bg-white">
+                    <p class="p-2">محصولات princess ژل</p>
+                </header>
+                <!-- single-product-main -->
+                <main class="single-product-main d-flex flex-column flex-lg-row">
+                    <!-- product-description -->
+                    <section class="col-lg-9 col-12">   
+                        <div class="product-description d-flex bg-white ms-lg-3 p-3">
+                            <div class="col-md-4 col-12 pb-3">
+                                <div class="product-main-img col-12 position-relative">
+                                    <img class="w-100 h-100" src="public/image/single-product/princess.png" alt="product">
+                                    <span class="product-description-img-special">ویژه 50%</span>
+                                </div>
+                                <div class="swiper ashkanSwiper position-relative">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide mt-3 d-flex align-items-center overflow-hidden py-3">
+                                            <a href="#" class="product-description-img-collection ms-2">
+                                                <img src="public/image/single-product/princess.png" alt="product">
+                                            </a>
+                                            <a href="#" class="product-description-img-collection ms-2">
+                                                <img src="public/image/single-product/gel-princess.png" alt="product">
+                                            </a>
+                                            <a href="#" class="product-description-img-collection ms-2">
+                                                <img src="public/image/single-product/gel-princess.png" alt="product">
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide mt-3 d-flex align-items-center overflow-hidden py-3">
+                                            <a href="#" class="product-description-img-collection me-2">
+                                                <img src="public/image/single-product/princess.png" alt="product">
+                                            </a>
+                                            <a href="#" class="product-description-img-collection me-2">
+                                                <img src="public/image/single-product/gel-princess.png" alt="product">
+                                            </a>
+                                            <a href="#" class="product-description-img-collection me-2">
+                                                <img src="public/image/single-product/gel-princess.png" alt="product">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                            </div>         
+                            <div class="product-description-text col-7 me-5 d-none d-md-block">
+                                <div class="d-flex align-items-center justify-content-between mb-3 d-none d-lg-flex">
+                                    <h5 class="m-0">ژل princess</h5>
+                                    <div class="star d-flex align-items-center">
+                                        <p class="m-0 mt-1">2</p>
+                                        <i class="fal fa-comment ms-2"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star ms-2"></i>
+                                        <p class="m-0 mt-1">۳.۰ از ۵</p>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <h6 class="description m-0">توضیحات محصول</h6>
+                                    <p class="description-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز،</p>
+                                </div>
+                                <div>
+                                    <p>ویژگی های محصول</p>
+                                    <ul class="list-unstyled p-0">
+                                        <li>لورم ایپسوم</li>
+                                        <li>لورم ایپسوم</li>
+                                        <li>لورم ایپسوم</li>
+                                        <li>لورم ایپسوم</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- price-product -->
+                    <section class="price-product overflow-hidden col-lg-3 col-12 p-3 mt-lg-0 mt-3">
+                        <div class="d-flex align-items-center justify-content-end d-lg-none d-block">
+                            <div class="star d-flex align-items-center">
+                                <p class="m-0 mt-1">2</p>
+                                <a href="#" class="text-decoration-none text-dark d-flex align-items-center justify-content-center"><i class="fal fa-comment ms-2"></i></a>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star ms-2"></i>
+                                <p class="m-0 mt-1">۳.۰ از ۵</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-end">
+                            <span class="previous-price ms-2">700,000</span>
+                            <span class="special-discount text-white mb-1">50%</span>
+                        </div>
+                        <p class="main-price">350,000 تومان</p>
+                        <div class="line-1"></div>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <p class="my-auto">قیمت کل:</p>
+                            <h5 class="my-auto">350,000 تومان</h5>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <button type="button" class="price-product-btn text-white py-2">افزودن به سبد خرید</button>
+                        </div>
+                    </section>
+                    <!-- product-description-text-md -->
+                    <section class="product-description-text-md bg-white p-3 col-12 d-block d-md-none container mt-3 mt-md-0">
+                        <div>
+                            <p class="description-sm">توضیحات محصول</p>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز،</p>
+                        </div>
+                        <div class="mt-5">
+                            <p>ویژگی های محصول</p>
+                            <ul class="list-unstyled p-0">
+                                <li>لورم ایپسوم</li>
+                                <li>لورم ایپسوم</li>
+                                <li>لورم ایپسوم</li>
+                                <li>لورم ایپسوم</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </section>
+                </main>
+            </section>
+
+            <!-- specifications -->
+            <section class="container mt-3">
+                <div class="specifications p-3 bg-white">
+                    <ul class="nav nav-tabs p-0 m-0" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+                                مشخصات
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link me-4" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
+                                نظرات
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="line-9"></div>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <main class="specifications-main">
+                                <p class="mt-4">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                                <div class="specifications-main-img d-flex align-items-center justify-content-center mx-auto mt-4">
+                                    <img src="public/image/single-product/princess.png" alt="product">
+                                </div>
+                                <p class="mt-4">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                                <div class="specifications-main-img d-flex align-items-center justify-content-center mx-auto mt-4">
+                                    <img src="public/image/single-product/gel-princess.png" alt="product">
+                                </div>
+                                <p class="mt-4">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                            </main>
+                        </div>
+                        <div class="tab-pane fade " id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <main class="comments">
+                                <div class="mt-4">
+                                    <p>دیدگاه شما</p>
+                                    <input class="mb-3" type="text" placeholder="دیدگاه بگذارید ...">
+                                    <button class="text-white px-3 py-2">ارسال دیدگاه</button>
+                                </div>
+                                <div class="mt-5">
+                                    <div class="line-3">
+                                        <p class="bg-white ps-3">دیدگاه ها</p>
+                                    </div>
+                                </div>
+                                <div class="opinions">
+                                    <div class="opinion p-3 mt-4">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="d-flex align-items-center">
+                                                <div class="opinion-img">
+                                                    <img src="public/image/default-user.png" alt="default-user">
+                                                </div>
+                                                <div class="me-2">
+                                                    <p class="opinion-name my-auto d-inline">علی باسره </p>
+                                                    <span class="expectation">(در انتظار تایید)</span>
+                                                    <smal class="opinion-date d-block my-auto">02 شهریور 1400 | 14:36</smal>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="text-decoration-none text-dark"><i class="fal fa-reply"></i></a>
+                                        </div>
+                                        <p class="mt-3">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، وسدی، .</p>
+                                    </div>
+                                    <div class="opinion p-3 mt-3">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="d-flex align-items-center">
+                                                <div>
+                                                    <img src="public/image/default-user.png" alt="default-user">
+                                                </div>
+                                                <div class="me-2">
+                                                    <p class="opinion-name my-auto d-inline">علی باسره </p>
+                                                    <span class="expectation">(در انتظار تایید)</span>
+                                                    <small class="opinion-date d-block my-auto">02 شهریور 1400 | 14:36</small>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="text-decoration-none text-dark"><i class="fal fa-reply"></i></a>
+                                        </div>
+                                        <p class="mt-3">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، وسدی، .</p>
+                                    </div>
+                                </div>
+                            </main>
+                        </div>
+                    </div>                    
+                </div>
+            </section>
+
+            <!-- similar-products -->
+            <section class="similar-products container mt-5">
+                <!-- similar-products-header -->
+                <header class="similar-products-header mb-5">
+                    <div class="line3">
+                        <p class="ps-3">محصولات مرتبط</p>
+                    </div>
+                </header>
+                <!-- similar-products-main -->
+                <main class="similar-products-main">
+                    <section class="row">
+                        <div class="col-md-3 col-lg-2 col-sm-4 col-6">
+                            <a href="#" class="text-decoration-none">
+                                <div class="product p-3 bg-white">
+                                    <div class="product-img">
+                                        <img src="public/image/single-product/a.png" alt="product">
+                                        <div class="product-img-special">ویژه 10%</div>
+                                    </div>
+                                    <p class="similar-product-names text-center mt-3">ژل princess</p>
+                                    <div>
+                                        <div class="line-3"></div>
+                                        <div class="similar-products-price d-flex align-items-center justify-content-between">
+                                            <span class="text-danger text-decoration-line-through">200,000ت</span>
+                                            <span>100,000ت</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-sm-4 col-6">
+                            <a href="#" class="text-decoration-none">
+                                <div class="product p-3 bg-white">
+                                    <div class="product-img">
+                                        <img src="public/image/single-product/b.png" alt="product">
+                                        <div class="product-img-special">ویژه 10%</div>
+                                    </div>
+                                    <p class="similar-product-names text-center mt-3">ژل princess</p>
+                                    <div>
+                                        <div class="line-3"></div>
+                                        <div class="similar-products-price d-flex align-items-center justify-content-between">
+                                            <span class="text-danger text-decoration-line-through">200,000ت</span>
+                                            <span>100,000ت</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-4 d-none d-sm-block">
+                            <a href="#" class="text-decoration-none">
+                                <div class="product p-3 bg-white">
+                                    <div class="product-img">
+                                        <img src="public/image/single-product/complete-line_fillers_hydrodeluxe.png" alt="product">
+                                        <div class="product-img-special">ویژه 10%</div>
+                                    </div>
+                                    <p class="similar-product-names text-center mt-3">ژل princess</p>
+                                    <div>
+                                        <div class="line-3"></div>
+                                        <div class="similar-products-price d-flex align-items-center justify-content-between">
+                                            <span class="text-danger text-decoration-line-through">200,000ت</span>
+                                            <span>100,000ت</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-6 d-md-block d-none">
+                            <a href="#" class="text-decoration-none">
+                                <div class="product p-3 bg-white">
+                                    <div class="product-img">
+                                        <img src="public/image/single-product/a.png" alt="product">
+                                        <div class="product-img-special">ویژه 10%</div>
+                                    </div>
+                                    <p class="similar-product-names text-center mt-3">ژل princess</p>
+                                    <div>
+                                        <div class="line-3"></div>
+                                        <div class="similar-products-price d-flex align-items-center justify-content-between">
+                                            <span class="text-danger text-decoration-line-through">200,000ت</span>
+                                            <span>100,000ت</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-2 col-6 d-lg-block d-none">
+                            <a href="#" class="text-decoration-none">
+                                <div class="product p-3 bg-white">
+                                    <div class="product-img">
+                                        <img src="public/image/single-product/b.png" alt="product">
+                                        <div class="product-img-special">ویژه 10%</div>
+                                    </div>
+                                    <p class="similar-product-names text-center mt-3">ژل princess</p>
+                                    <div>
+                                        <div class="line-3"></div>
+                                        <div class="similar-products-price d-flex align-items-center justify-content-between">
+                                            <span class="text-danger text-decoration-line-through">200,000ت</span>
+                                            <span>100,000ت</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-2 col-6 d-lg-block d-none">
+                            <a href="#" class="text-decoration-none">
+                                <div class="product p-3 bg-white">
+                                    <div class="product-img">
+                                        <img src="public/image/single-product/complete-line_fillers_hydrodeluxe.png" alt="product">
+                                        <div class="product-img-special">ویژه 10%</div>
+                                    </div>
+                                    <p class="similar-product-names text-center mt-3">ژل princess</p>
+                                    <div>
+                                        <div class="line-3"></div>
+                                        <div class="similar-products-price d-flex align-items-center justify-content-between">
+                                            <span class="text-danger text-decoration-line-through">200,000ت</span>
+                                            <span>100,000ت</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+                </main>
+            </section>
+        </main>
+
+        <!-- footer -->
+        <footer>
+
+            <!-- social-networks -->
+            <div class="social-networks d-flex py-4 text-center align-items-center justify-content-between px-sm-5 px-2 py-sm-3">
+                <p class="my-auto">شبکه های اجتماعی</p>
+                <div class="network d-flex">
+                    <a href="#" class="text-decoration-none p-3 p-sm-0 ms-2 d-flex flex-column align-items-center justify-content-center">
+                        <img src="public/image/Path 4366.png" alt="aparat">
+                    </a>
+                    <a href="#" class="text-decoration-none p-3 p-sm-0 ms-2 d-flex flex-column align-items-center justify-content-center"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-decoration-none p-3 p-sm-0 ms-2 d-flex flex-column align-items-center justify-content-center"><i class="far fa-envelope"></i></a>
+                    <a href="#" class="text-decoration-none p-3 p-sm-0 ms-2 d-flex flex-column align-items-center justify-content-center"><i class="fas fa-phone-alt"></i></a>
+                    <a href="#" class="text-decoration-none p-3 p-sm-0 ms-2 d-flex flex-column align-items-center justify-content-center"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="text-decoration-none p-3 p-sm-0 d-flex flex-column align-items-center justify-content-center"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <!-- footer-final -->
+            <main class="footer-final">
+
+                <!-- section-main -->
+                <section class="section-main d-flex flex-column flex-md-row">
+                    <div class="col-md-4 footer-final-right pt-4 pe-sm-5 p-2">
+                        <div class="footer-final-logo my-3 d-flex align-items-center justify-content-center mx-auto mx-md-0">
+                            <img src="public/image/A.png" alt="logo">
+                        </div>
+                        <p>فروشگاه اینترنتی  با هدفلورم ایپسوم متن ساختگی با تولید  نا مفهوم در صنعت چاپ و وب کاربرد دارد  لورم ایپسوم متن ساختگی با تولید  نا مفهوم در صنعت چاپ و وب کاربرد داردولورم ایپسوم متن ساختگی با تولید  نا مفهوم در صنعت چاپ و وب کاربرد دارد ولورم ایپسوم متن ساختگی با تولید  نا مفهوم در صنعت چاپ و وب کاربرد دارد ولورم ایپسوم متن ساختگی با تولید  نا مفهوم در صنعت چاپ و وب کاربرد دارد و</p>
+                    </div>
+                    <div class="sales-information pe-sm-5 p-2 d-sm-none mb-4">
+                        <h5 class="mb-3">اطلاعات فروشگاه</h5>
+                        <p class="mt-3"><h6>مشاوره و فروش : </h6>09174136374</p>
+                        <div class="mt-4">
+                            <p><h6>تهران : </h6> بلـوار مـرزداران،خـیابان ابراهیمی، بــرج الوند،واحـد 504</p>
+                            <p><h6 class="d-inline">تلفن : </h6>02144383145</p>
+                        </div>
+                        <div class="mt-4">
+                            <p><h6>شیراز : </h6>خیابان مـلاصدرا،نبش خلیلی،ساختمان آناهیتا،طبـقه 5</p>
+                            <p><h6>تلفن : </h6>07136292587</p>
+                        </div>
+                    </div>
+                    <div class="d-flex link col-sm-5 col-12">
+                        <div class="useful-link col-lg-6 col-sm-12 col-md-6 col-5 pt-sm-5 me-2">
+                            <h6 class="me-sm-5">لینک های مفید</h6>
+                            <ul class="list-unstyled">
+                                <li class="me-2"><a href="#" class="text-decoration-none">پرسش و پاسخ</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">دفاترفروش</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">گالری تصاویر</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">محصولات ما</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">درباره ما</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">تماس با ما</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">دعوت به همکاری</a></li>
+                            </ul>
+                        </div>
+                        <div class="related-link-1 pt-sm-5">
+                            <h6 class="me-sm-5">لینک های مرتبط</h6>
+                            <ul class="list-unstyled">
+                                <li class="me-2"><a href="#" class="text-decoration-none">اباد</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">وزارت بهداشت</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">یونسانگ</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">سئولین</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">دانشگاه علوم پزشکی تهران</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">دانشگاه علوم پزشکی شیراز</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">دانشگاه علوم پزشکی خرم</a></li>
+                                <li class="me-2 d-md-none"><a href="#" class="text-decoration-none">الکتروپوریشن</a></li>
+                                <li class="me-2 d-md-none"><a href="#" class="text-decoration-none">توسعه مدار هیرو</a></li>
+                                <li class="me-2 d-md-none"><a href="#" class="text-decoration-none">MDF</a></li>
+                                <li class="me-2 d-md-none"><a href="#" class="text-decoration-none">اینترالاین</a></li>
+                                <li class="me-2 d-md-none"><a href="#" class="text-decoration-none">سیگمالیفت</a></li>
+                                <li class="me-2 d-md-none"><a href="#" class="text-decoration-none">شرکت درسان طب فارس</a></li>
+                                <li class="me-2 d-md-none"><a href="#" class="text-decoration-none">شرکت دنتیوم</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="related-link-2 d-none d-md-block">
+                        <ul class="list-unstyled">
+                            <li class="me-2"><a href="#" class="text-decoration-none">الکتروپوریشن</a></li>
+                            <li class="me-2"><a href="#" class="text-decoration-none">توسعه مدار هیرو</a></li>
+                            <li class="me-2"><a href="#" class="text-decoration-none">MDF</a></li>
+                            <li class="me-2"><a href="#" class="text-decoration-none">اینترالاین</a></li>
+                            <li class="me-2"><a href="#" class="text-decoration-none">سیگمالیفت</a></li>
+                            <li class="me-2"><a href="#" class="text-decoration-none">شرکت درسان طب فارس</a></li>
+                            <li class="me-2"><a href="#" class="text-decoration-none">شرکت دنتیوم</a></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- section-footer -->
+                <section class="section-footer mt-3 d-flex align-items-center justify-content-between">
+                    <div class="sales-information pe-5 d-none d-sm-block">
+                        <h5 class="mb-3">اطلاعات فروشگاه</h5>
+                        <p class="mt-3"><h6>مشاوره و فروش : </h6>09174136374</p>
+                        <div class="mt-4">
+                            <p><h6>تهران : </h6> بلـوار مـرزداران،خـیابان ابراهیمی، بــرج الوند،واحـد 504</p>
+                            <p><h6 class="d-inline">تلفن : </h6>02144383145</p>
+                        </div>
+                        <div class="mt-4">
+                            <p><h6>شیراز : </h6>خیابان مـلاصدرا،نبش خلیلی،ساختمان آناهیتا،طبـقه 5</p>
+                            <p><h6>تلفن : </h6>07136292587</p>
+                        </div>
+                    </div>
+                    <div class="ps-sm-5 mb-4 mb-sm-0 d-flex align-items-center justify-content-center justify-content-sm-between mx-sm-5 mx-auto">                               
+                        <div class="ms-2">
+                            <img src="public/image/samandehi-ir-4_graphicshop-ir-1.png" alt="A-symbol">
+                        </div>
+                        <div>
+                            <img src="public/image/000.png" alt="A-symbol">
+                        </div>
+                    </div>
+                </section>
+                <section class="footer-text d-flex align-items-center text-center justify-content-center flex-column">
+                    <div class="line-4"></div>
+                    <p class="my-4">کليه حقوق، برای شرکت محیا تجهیز گستر محفوظ ميباشد</p>
+                </section>
+            </main>
+        </footer>
+
+        <!-- script -->
+        <script src="public/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/js/sliderHome.js"></script>
+        <script src="public/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

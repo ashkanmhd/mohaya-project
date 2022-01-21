@@ -1,0 +1,218 @@
+/* main */
+.main-categorization {
+    background-color: rgb(249, 249, 249);
+    margin-top: 7.7rem;
+}
+
+/* ------------------------------------- */
+
+@media (max-width: 992px) {
+
+    .main-categorization {
+        margin-top: 3.7rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .main-categorization {
+        margin-top: 3.1rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .main-categorization {
+        margin-top: 1.8rem;
+    }
+}
+
+/*------------------------------------------ main-categorization-img ----------------------------------------------*/
+
+.main-categorization-img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-categorization-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* ----------------------------------------- categorization --------------------------------------- */
+
+/*----------- product-option ----------*/
+
+/* search-product */
+
+.search-product {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.search-product input {
+    margin-top: 1rem;
+    width: 100%;
+    border: none;
+    background-color: rgba(51, 51, 51, 0.137);
+    outline: none;
+    font-size: .9rem;
+    border-radius: 5px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+/* grouping-product */
+
+.grouping-product {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.grouping-product-a {
+    color: #000;
+}
+
+.grouping-product-a:hover {
+    color: #346f81;
+}
+
+/* types-of-promotions */
+
+.types-of-promotions {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+/*-------------- product-categorization------------------------- */
+
+/* product-categorization-header */
+
+.product-categorization-header {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.product-categorization-header a {
+    transition: all .3s;
+    color: #000;
+    border-radius: 5px;
+    padding: .2rem;
+}
+
+.product-categorization-header a:hover {
+    background-color: rgb(52, 111, 129);
+    color: white;
+}
+
+.product-categorization-header li,
+.product-categorization-header h6 {
+    white-space: nowrap;
+}
+
+/* product-categorization-main  */
+
+.product {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 20px;
+    position: relative;
+    color: #000;
+    white-space: nowrap;
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+}
+
+.product-img img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.similar-product-names {
+    transition: all .2s ease;
+}
+
+.product:hover .similar-product-names {
+    color: #346f81;
+}
+
+.product-img-special {
+    background-color: red;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: .8rem;
+    padding: 0 .4rem;
+}
+
+.line-3 {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, .1);
+    margin: .5rem 0 1rem 0;
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+
+@media(max-width: 992px) {
+
+    .grouping-product-a:hover,
+    .product:hover .similar-product-names {
+        color: #000;
+    }
+
+    .similar-products-price span {
+        font-size: .9rem;
+    }
+    
+    .product-categorization-header a:hover {
+        background-color: transparent;
+        color: #000;
+    }
+    
+    .product-filter {
+        width: 50px;
+        height: 50px;
+        background-color: rgb(52, 111, 129);
+        border-radius: 50%;
+        position: fixed;
+        left: 15px;
+        bottom: 15px;
+        z-index: 1;
+    }
+}
+
+@media(max-width: 576px) {
+
+    .product-categorization-header a,
+    .similar-products-price span {
+        font-size: .8rem;
+    }
+
+    .product-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-width: 400px) {
+
+    .product-filter {
+        width: 40px;
+        height: 40px;
+        font-size: .8rem;
+    }
+}

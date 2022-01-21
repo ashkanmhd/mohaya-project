@@ -1,0 +1,183 @@
+/* main */
+.main-blogs {
+    background-color: rgb(249, 249, 249);
+    margin-top: 7.2rem;
+}
+
+/* ------------------------------------- */
+
+@media (max-width: 992px) {
+
+    .main-blogs {
+        margin-top: 3.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .main-blogs {
+        margin-top: 2.6rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .main-blogs {
+        margin-top: 2.3rem;
+    }
+}
+
+/* ------------------------------------------- main-blogs-title- ------------------------------- */
+
+.main-blogs-title {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* --------------------------------- main-blogs-poster -------------------------------- */
+
+.main-blogs-poster {
+    width: 100%;
+    height: 100%;
+}
+
+.main-blogs-poster img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------ blogs --------------------------------------------- */
+
+/* -------------- blogs-articles -------------- */
+
+/* search-articles*/
+
+.search-articles {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.search-articles {
+    font-weight: 700;
+}
+
+.search-articles input {
+    margin-top: 1rem;
+    width: 100%;
+    border: none;
+    background-color: rgba(51, 51, 51, 0.137);
+    outline: none;
+    font-size: .9rem;
+    border-radius: 5px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+/* grouping-product */
+
+.grouping-product {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.grouping-product-a {
+    color: #000;
+}
+
+.grouping-product-a:hover {
+    color: #346f81;
+}
+
+/* ---------------- blogs-ordering--------------- */
+
+/* product-categorization-header */
+
+.product-categorization-header {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.product-categorization-header a {
+    transition: all .3s;
+    color: #000;
+    border-radius: 5px;
+    padding: .2rem;
+}
+
+.product-categorization-header a:hover {
+    background-color: rgb(52, 111, 129);
+    color: white;
+}
+
+.product-categorization-header li,
+.product-categorization-header h6 {
+    white-space: nowrap;
+}
+
+/* blogs-ordering-main*/
+
+.blogs-ordering-main-card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.blogs-ordering-main-img {
+    width: 100%;
+    height: 100%;
+}
+
+.blogs-ordering-main-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blogs-ordering-main-card a {
+    font-size: .9rem;
+    transition: all .2s ease;
+    color: #000;
+}
+
+.blogs-ordering-main-card a:hover {
+    color: #346f81;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+
+@media(max-width: 992px) {
+
+    .grouping-product-a:hover,
+    .blogs-ordering-main-card a:hover {
+        color: #000;
+    }
+
+    .product-categorization-header a:hover {
+        background-color: transparent;
+        color: #000;
+    }
+}
+
+@media(max-width: 576px) {
+
+    /* ---------------- blogs-ordering--------------- */
+
+    /* blogs-ordering-header */
+
+    .blogs-ordering-header a {
+        font-size: .8rem;
+    }
+
+}

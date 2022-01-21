@@ -1,0 +1,127 @@
+/* main */
+.main-store-message {
+    background-color: rgb(249, 249, 249);
+    margin-top: 7.2rem;
+}
+
+/* ------------------------------------- */
+
+@media (max-width: 992px) {
+
+    .main-store-message {
+        margin-top: 3.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .main-store-message {
+        margin-top: 2.6rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .main-store-message {
+        margin-top: 2.3rem;
+    }
+}
+
+/* ----------------------- store-message ------------------------- */
+
+/*-------------------------- card-profile -------------------*/
+
+.card-profile {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.card-profile > div:nth-child(1) {
+    background-color: rgb(249, 249, 249);
+}
+
+.State {
+    margin-bottom: 0;
+}
+
+.card-profile-a {
+    color: #000;
+}
+
+.card-profile-a:hover {
+    color: #346f81;
+}
+
+/* store-message */
+
+.store-message {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.store-message > div:nth-child(1) > p {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.store-message-text{
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+/* my-tutorials */
+
+.my-tutorials-icon {
+    font-size: 1.3rem;
+}
+
+.my-tutorials-a {
+    color: #000;
+}
+
+.my-tutorials-text {
+    transition: all .2s ease;
+}
+
+.my-tutorials-a:hover .my-tutorials-text {
+    color: #346f81;
+}
+
+.my-tutorials {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.my-tutorials-card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.my-tutorials-product {
+    width: 100%;
+    height: 100%;
+}
+
+.my-tutorials-product img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* ------------------------------------------ */
+
+@media(max-width: 992px) {
+    
+    .my-tutorials-a:hover .my-tutorials-text {
+        color: #000;
+    }
+}
+
+@media(max-width: 576px) {
+
+    .my-tutorials-text {
+        white-space: nowrap;
+        font-size: .9rem;
+    }
+} 

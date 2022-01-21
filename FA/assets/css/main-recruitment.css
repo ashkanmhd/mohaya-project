@@ -1,0 +1,61 @@
+/* main */
+.main-recruitment {
+    background-color: rgb(249, 249, 249);
+    margin-top: 7.2rem;
+}
+
+/* ------------------------------------- */
+
+@media (max-width: 992px) {
+
+    .main-recruitment {
+        margin-top: 3.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .main-recruitment {
+        margin-top: 2.6rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .main-recruitment {
+        margin-top: 2.3rem;
+    }
+}
+
+/* ------------------------------------------- main-recruitment-title- ------------------------------- */
+
+.main-recruitment-title {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------- recruitment --------------------------------------------------- */
+
+.recruitment {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.recruitment input,
+.recruitment select,
+.recruitment textarea {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: .8rem;
+    outline: none;
+}
+
+.recruitment input[name="choseFile"] {
+    direction: ltr;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+

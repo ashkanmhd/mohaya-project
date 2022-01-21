@@ -1,0 +1,144 @@
+/* main */
+.main-contact {
+    background-color: rgb(249, 249, 249);
+    margin-top: 7.2rem;
+}
+
+/* ------------------------------------- */
+
+@media (max-width: 992px) {
+
+    .main-contact {
+        margin-top: 3.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .main-contact {
+        margin-top: 2.6rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .main-contact {
+        margin-top: 2.3rem;
+    }
+}
+
+/* ----------------------------------------------- */
+
+/* contact-top */
+
+.contact-top {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* -------------------------------------------------- contact --------------------------------------------*/
+
+/* contact-header */
+
+.contact-header {
+    background-color: rgb(52, 111, 129);
+}
+
+/* contact-main */
+
+.contact-main {
+    /* width: 70%;
+    height: 100%; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    position: relative;
+    top: -30px;
+    z-index: 1;
+}
+
+.contact-main-img div {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-main-img div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+/* ----------------------------------- contact-form ---------------------------------------------- */
+
+.contact-form {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.line {
+    width: 50px;
+    height: 4px;
+    background-color: rgb(52, 111, 129);
+    margin: -.3rem 0 1rem 0;
+    border-radius: 10px;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    outline: none;
+}
+
+.contact-form-btn {
+    border: none;
+    outline: none;
+    padding: .5rem 1.5rem;   
+    border-radius: 10px;
+}
+
+.contact-form-button {
+    border: none;
+    outline: none;
+    padding: .5rem 1.5rem;   
+    border-radius: 10px;
+    background-color: #346F81;
+}
+
+.not-tobot-img {
+    width: 250px;
+    height: auto;
+}
+
+.not-tobot-img img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+@media(max-width: 576px) {
+    .contact-form form input,
+    .contact-form form textarea, 
+    .contact-form-btn {
+        font-size: .8rem;
+    }
+
+    .contact-form-btn {
+        white-space: nowrap;
+    }
+    .not-tobot-img {
+        width: 60%;
+    }
+
+    .contact-form-button {
+        padding: .7rem 1rem;   
+        font-size: .6rem;
+    }
+}

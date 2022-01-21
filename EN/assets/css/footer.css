@@ -1,0 +1,176 @@
+/* footer */
+
+/*------------------- social-networks ------------------ */
+
+.social-networks {
+    background-color: rgb(52, 111, 129);
+    color: white;
+}
+
+.network a {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    color: rgb(52, 111, 129);
+}
+
+.network i {
+    font-size: 1.5rem;
+}
+
+/* -------------------------------------------------------------------- */
+
+
+@media(max-width: 576px) {
+    
+    .network i {
+        font-size: 1rem;
+    }
+    
+}
+
+@media(max-width: 400px) {
+
+    .social-networks-title {
+        font-size: .6rem;
+    }
+}
+
+/* ------------------------------ footer-final --------------------------------- */
+
+.footer-final {
+    background-color: rgb(226, 237, 241);
+}
+
+/* section-main */
+
+.footer-final-logo {
+    width: 250px;
+    height: auto;
+}
+
+.footer-final-logo img {
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.related-link-1 h6 {
+    white-space: nowrap;
+}
+
+.sales-information span {
+    font-weight: 500;
+}
+
+.useful-link a,
+.related-link-1 a,
+.related-link-2 a {
+    color: #000;
+}
+
+.useful-link a:hover,
+.related-link-1 a:hover,
+.related-link-2 a:hover {
+    color: #346f81;
+}
+
+.related-link-2 {
+    margin-top: 5rem;
+}
+
+/* sectoin-footer */
+
+.sales-information p {
+    margin-top: -1rem;
+}
+
+.sales-information h6 {
+    display: inline-block;
+}
+
+/* --------------------- */
+
+.line-4 {
+    width: 90%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.footer-text {
+    font-size: .9rem;
+}
+
+/* ----------------------------------------------------------------------- */
+
+@media(max-width: 992px) {
+    .useful-link a:hover,
+    .related-link-1 a:hover,
+    .related-link-2 a:hover {
+        color: #000;
+    }
+
+}
+
+@media(max-width: 768px) {
+    
+    .related-link-2 {
+        margin-top: 0;
+    }
+}
+
+@media(max-width: 576px) {
+
+    /*------------------- social-networks ------------------ */
+
+    .social-networks {
+        background-color: rgb(52, 111, 129);
+        color: white;
+        font-size: .9rem;
+    }
+    .network a {
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        border-radius: 50%;
+        color: rgb(52, 111, 129);
+    }
+
+    /* section-main */
+
+    .link ul {
+        margin-right: -2.9rem;
+    }
+
+    .footer-final-logo {
+        width: 200px;
+        height: auto;
+    }
+
+    .footer-final-logo img {
+        object-position: center;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .useful-link a,
+    .related-link-1 a,
+    .related-link-2 a {
+        font-size: .8rem;
+    }
+} 
+
+@media(max-width: 400px) {
+    .useful-link a,
+    .related-link-1 a,
+    .related-link-2 a {
+        font-size: .6rem;
+    }
+
+    .footer-text p {
+        font-size: .8rem;
+    }
+}

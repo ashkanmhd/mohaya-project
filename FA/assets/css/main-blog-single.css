@@ -1,0 +1,264 @@
+/* main */
+.main-blog-single {
+    background-color: rgb(249, 249, 249);
+    margin-top: 7.2rem;
+}
+
+/* ------------------------------------- */
+
+@media (max-width: 992px) {
+
+    .main-blog-single {
+        margin-top: 3.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .main-blog-single {
+        margin-top: 2.6rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .main-blog-single {
+        margin-top: 2.3rem;
+    }
+}
+
+/* ------------------------------------------------------------------- blog-single ------------------------------------------------------------- */
+
+/* ------------------- blog-single-header ------------------ */
+
+.blog-single-header {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+/* -------------------- blog-single-main ------------------*/
+
+/*  all-actions  */
+
+.all-actions {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.default-user {
+    width: 20px;
+    height: 20px;
+}
+
+.default-user img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+} 
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.all-actions-poster {
+    width: 100%;
+    height: 400px;
+}
+
+.all-actions-poster img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* line-9 */
+
+.line-9 {
+    width: 100%;
+    height: 3px;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+/* star-of */
+
+.star-1 {
+    color: #346f81;
+}
+
+.star-2 {
+    color: #A8A8A8;
+}
+
+.share a {
+    color: #000;
+    transition: all .2s ease;
+}
+
+.share a:hover {
+    color: #346f81;
+}
+
+/* comments */
+
+.comments > div:nth-child(1) > p {
+    font-weight: 500;
+}
+
+.comments input {
+    width: 100%;
+    padding: 10px 10px 100px 0;
+    background-color: #f8f8f8;
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, .1);
+    border-radius: 20px;
+}
+
+.comments button {
+    border: none;
+    outline: none;
+    background-color: #346F81;
+    border-radius: 10px;
+}
+
+.line-3 {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, .1);
+    position: relative;
+}
+
+.line-3 p {
+    position: absolute;
+    top: -10px;
+}
+
+.opinion {
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 20px;
+}
+
+.opinion-img img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 1005;
+}
+
+.opinion-name {
+    font-weight: 700;
+}
+
+.expectation {
+    color: #346F81;
+    font-weight: 100;
+}
+
+.opinion i {
+    font-size: 1.4rem;
+}
+
+/* related-articles */
+
+.related-articles  {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.related-articles-poster {
+    width: 50px;
+    height: 50px;
+}
+
+.related-articles-poster img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.related-articles-clock {
+    font-size: .8rem;
+}
+
+.related-articles-text > a:nth-child(1) {
+    color: #000;
+    transition: all .2s ease;
+}
+
+.related-articles-text:hover a {
+    color: #346f81;
+}
+
+/* tag */
+
+.tag {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.tag a {
+    font-size: .9rem;
+    background-color: rgba(0, 0, 0, .1);
+    color: #000;
+    transition: all .2s ease;
+    white-space: nowrap;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.tag a:hover {
+    color: #346f81;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+@media(max-width: 992px) {
+
+    .related-articles-text:hover a,
+    .tag a:hover,
+    .share a:hover  {
+        color: #000;
+    }
+}
+
+@media(max-width: 576px) {
+
+    .all-actions-icon {
+        font-size: .8rem;
+    }
+
+    .comment-information-img {
+        width: 40px;
+    }
+
+    .comment-information-img img {
+        width: 100%;
+        height: 100%;
+        object-position: center;
+        object-fit: cover;
+    }
+
+    .opinion-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .opinion-name {
+        font-size: .7rem;
+    }
+    
+    .expectation {
+        font-size: .6rem;
+    }
+    
+    .opinion-date {
+        font-size: .6rem;
+    }
+}

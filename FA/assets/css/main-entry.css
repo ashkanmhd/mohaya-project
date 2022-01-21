@@ -1,0 +1,74 @@
+/* main */
+.main-entry {
+    background-color: rgb(249, 249, 249);
+    margin-top: 7.2rem;
+}
+
+/* ------------------------------------- */
+
+@media (max-width: 992px) {
+
+    .main-entry {
+        margin-top: 3.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .main-entry {
+        margin-top: 2.6rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .main-entry {
+        margin-top: 2.3rem;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* ---------------------------------- entry -------------------------------------- */
+
+.entry {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.entry > p:nth-child(1) {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.entry label {
+    font-weight: 500;
+}
+
+.entry input {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    outline: none;
+}
+
+.entry button {
+    outline: none;
+    padding: .5rem 4rem;
+}
+
+.account {
+    color: #346F81;
+}
+
+.account:hover {
+    color: #346F81;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+@media(max-width: 576px) {
+
+    .entry input {
+        font-size: .9rem;
+    }
+}

@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>final</title>
+
+        <!--                   link                 -->
+
+        <link rel="stylesheet" href="public/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="public/bootstrap/js/dist/toast.js.map">
+        <link rel="stylesheet" href="public/font-vazir.css">
+        <link rel="stylesheet" href="public/fontawesome-pro-5.15.3-ulabs/fontawesome-pro-5.15.3-web-ulabs/css/all.css">
+        
+        <!-- header -->
+        <link rel="stylesheet" href="assets/css/header.css">
+       
+        <!-- main -->
+        <link rel="stylesheet" href="assets/css/main-events.css">
+        
+        <!-- footer -->
+        <link rel="stylesheet" href="assets/css/footer.css">
+
+    </head>
+    <body>
+        
+        <!-- header -->
+        <header class="header-final bg-white" dir="ltr">
+            <main class="px-1 py-2 py-sm-0 d-flex align-items-center justify-content-between">
+                <h1 class="header-logo d-none d-lg-block">
+                    <img src="public/image/logo-png mee.png" alt="logo">
+                </h1>
+                <div class="header-search">
+                    <a href="#" class="text-decoration-none header-search-icon d-flex align-items-center"><i class="fal fa-search ms-2"></i></a>
+                    <input class="header-search-input" type="search" name="search" placeholder="Search all products">
+                </div>
+                <div class="icon-sm d-lg-none d-flex align-items-center my-auto">
+                    <a href="#" class="text-decoration-none"><i class="fal fa-bars mt-1 pe-2"></i></a>
+                    <a href="#" class="icon-sm-language text-decoration-none d-flex align-items-center"><i class="fal fa-language ms-1 pe-1"></i>Language</a>
+                </div>
+                <div class="header-logo d-lg-none">
+                    <img src="public/image/logo-png mee.png" alt="logo">
+                </div>
+                <!-- accont-header -->
+                <div class="d-flex align-items-center justify-content-center">
+                    <button type="button" class="btn-account d-none d-lg-flex align-items-center align-items-center"><i class="fal fa-user"></i>Login to account</button>
+                    <a href="#" class="icon text-decoration-none d-flex align-items-center"><i class="fal fa-user d-lg-none"></i></a>
+                    <a href="#" class="icon text-decoration-none d-flex align-items-center"><i class="fal fa-search d-lg-none ms-2 ms-1"></i></a>
+                    <a href="#" class="icon text-decoration-none align-items-center d-none d-lg-flex"><i class="fal fa-language me-1 fa-2x"></i>Language</a>
+                    <span class="mx-2">|</span>
+                    <a href="#" class="shop text-dark d-flex text-decoration-none align-items-center">
+                        <div class="circle-shop">5</div>
+                        <i class="fal fa-shopping-cart shopping"></i>
+                    </a>
+                </div>
+            </main>
+            <nav>
+                <ul class="list-unstyled d-flex mt-2 p-0 ps-1">
+                    <li class="me-4 p-0"><a href="#" class="text-decoration-none">Home</a></li>
+                    <li class="me-4 productList"><a href="#" class="text-decoration-none d-flex align-items-center justify-content-center">Products and Services<i class="fas fa-sort-down mb-2"></i></a>
+                        <ul class="Subcategory-products list-unstyled p-0" >
+                            <div class="d-flex align-items-start">
+                                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                    <button class="active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                        Devices 
+                                    </button>
+                                    <button class="" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                                        Products
+                                    </button>
+                                    <button class="" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                                        Services
+                                    </button>
+                                </div>
+                                <div class="tab-content" id="v-pills-tabContent">
+                                    <div class="tab-pane fade pt-3 px-3 show active row" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                        <div class="d-flex flex-wrap">
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">Multip Shape</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">Multip Shape</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">Multip Shape</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">Multip Shape</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">Multip Shape</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">Multip Shape</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">Multip Shape</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">Multip Shape</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">Multip Shape</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">Multip Shape</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">Multip Shape</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                            <figure class="col-4">
+                                                <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                    <div class="Subcategory-products-img">
+                                                        <img src="public/image/index-image/Mask Group 12.png"
+                                                            alt="Subcategory-products-img">
+                                                    </div>
+                                                    <figcaption>
+                                                        <span class="Subcategory-products-title">Multip Shape</span>
+                                                    </figcaption>
+                                                </a>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                        <div class="p-3">
+                                            <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                <div class="products-img m-1">
+                                                    <img src="public/image/index/er.png" alt="Subcategory-products-img">
+                                                </div>
+                                                <span class="Subcategory-products-title">Consumables of devices</span>
+                                            </a>
+                                            <a href="#" class="Subcategory-products-figure mt-3 text-decoration-none d-flex align-items-center ms-4">
+                                                <div class="products-img m-1">
+                                                    <img src="public/image/index/rt.png" alt="Subcategory-products-img">
+                                                </div>
+                                                <span class="Subcategory-products-title">Botox</span>
+                                            </a>
+                                            <a href="#" class="Subcategory-products-figure mt-3 text-decoration-none d-flex align-items-center ms-4">
+                                                <div class="products-img m-1">
+                                                    <img src="public/image/index/we.png" alt="Subcategory-products-img">
+                                                </div>
+                                                <span class="Subcategory-products-title">gel</span>
+                                            </a>
+                                            <a href="#" class="Subcategory-products-figure mt-3 text-decoration-none d-flex align-items-center ms-4">
+                                                <div class="products-img m-1">
+                                                    <img src="public/image/index/yu.png" alt="Subcategory-products-img">
+                                                </div>
+                                                <span class="Subcategory-products-title">Mesotherapy materials</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                        <div class="p-3">
+                                            <a href="#" class="Subcategory-products-figure text-decoration-none d-flex align-items-center ms-4">
+                                                <div class="products-img m-1">
+                                                    <img src="public/image/index/er.png" alt="Subcategory-products-img">
+                                                </div>
+                                                <span class="Subcategory-products-title">After sales service offices</span>
+                                            </a>
+                                            <a href="#" class="Subcategory-products-figure mt-3 text-decoration-none d-flex align-items-center ms-4">
+                                                <div class="products-img m-1">
+                                                    <img src="public/image/index/rt.png" alt="Subcategory-products-img">
+                                                </div>
+                                                <span class="Subcategory-products-title">Periodic visits to the office</span>
+                                            </a>
+                                            <a href="#" class="Subcategory-products-figure mt-3 text-decoration-none d-flex align-items-center ms-4">
+                                                <div class="products-img m-1">
+                                                    <img src="public/image/index/we.png" alt="Subcategory-products-img">
+                                                </div>
+                                                <span class="Subcategory-products-title">Services</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="me-4 productList"><a href="#" class="text-decoration-none d-flex align-items-center justify-content-center">articles<i class="fas fa-sort-down mb-2"></i></a>
+                        <ul class="Subcategory-products-articles list-unstyled p-0">
+                            <div class="d-flex align-items-center justify-content-center flex-column">
+                                <li class="Subcategory-products-articles-li"><a href="#" class="Subcategory-products-articles-a text-decoration-none">articles 1</a></li>
+                                <li class="Subcategory-products-articles-li"><a href="#" class="Subcategory-products-articles-a text-decoration-none">articles 2</a></li>
+                                <li class="Subcategory-products-articles-li"><a href="#" class="Subcategory-products-articles-a text-decoration-none">articles 3</a></li>
+                                <li class="Subcategory-products-articles-li border-link"><a href="#" class="Subcategory-products-articles-a text-decoration-none">articles 4</a></li>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="me-4 productList"><a href="#" class="text-decoration-none d-flex align-items-center justify-content-center">Event<i class="fas fa-sort-down mb-2"></i></a>
+                        <ul class="Subcategory-products-event list-unstyled p-0">
+                            <div class="d-flex align-items-center justify-content-center flex-column">
+                                <li class="Subcategory-products-articles-li"><a href="#" class="Subcategory-products-articles-a text-decoration-none">Workshops</a></li>
+                                <li class="Subcategory-products-articles-li"><a href="#" class="Subcategory-products-articles-a text-decoration-none">Medical events</a></li>
+                                <li class="Subcategory-products-articles-li border-link"><a href="#" class="Subcategory-products-articles-a text-decoration-none">Educational webinar</a></li>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="me-4"><a href="#" class="text-decoration-none">Recruitment</a></li>
+                    <li class="me-4"><a href="#" class="text-decoration-none">about us</a></li>
+                    <li class="me-4"><a href="#" class="text-decoration-none">Contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- main -->
+        <main class="events-main pb-5">
+
+            <!-- event -->
+            <section>
+                <!-- event-header -->
+                <header class="event-header d-flex align-items-center justify-content-center">
+                    <h4 class="text-white">events</h4>
+                </header>
+                <!-- event-main -->
+                <main class="container mx-auto px-4">
+                    <section class="event-main bg-white row p-md-4 p-2 py-4">
+                        <div class="col-md-3 col-6">
+                            <div class="event-main-card">
+                                <div class="event-main-card-img">
+                                    <img src="public/image/event/1.png" alt="event-main-card-img">
+                                </div>
+                                <p class="m-0 py-3 text-center">May 2020</p>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-3 col-6">
+                            <div class="event-main-card">
+                                <div class="event-main-card-img">
+                                    <img src="public/image/event/1.png" alt="event-main-card-img">
+                                </div>
+                                <p class="m-0 py-3 text-center">May 2020</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 mt-4 mt-md-0">
+                            <div class="event-main-card">
+                                <div class="event-main-card-img">
+                                    <img src="public/image/event/1.png" alt="event-main-card-img">
+                                </div>
+                                <p class="m-0 py-3 text-center">May 2020</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 mt-4 mt-md-0">
+                            <div class="event-main-card">
+                                <div class="event-main-card-img">
+                                    <img src="public/image/event/1.png" alt="event-main-card-img">
+                                </div>
+                                <p class="m-0 py-3 text-center">May 2020</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 mt-4">
+                            <div class="event-main-card">
+                                <div class="event-main-card-img">
+                                    <img src="public/image/event/1.png" alt="event-main-card-img">
+                                </div>
+                                <p class="m-0 py-3 text-center">May 2020</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 mt-4">
+                            <div class="event-main-card">
+                                <div class="event-main-card-img">
+                                    <img src="public/image/event/1.png" alt="event-main-card-img">
+                                </div>
+                                <p class="m-0 py-3 text-center">May 2020</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 mt-4">
+                            <div class="event-main-card">
+                                <div class="event-main-card-img">
+                                    <img src="public/image/event/1.png" alt="event-main-card-img">
+                                </div>
+                                <p class="m-0 py-3 text-center">May 2020</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 mt-4">
+                            <div class="event-main-card">
+                                <div class="event-main-card-img">
+                                    <img src="public/image/event/1.png" alt="event-main-card-img">
+                                </div>
+                                <p class="m-0 py-3 text-center">May 2020</p>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-4 d-none d-md-block">
+                            <div class="event-main-card">
+                                <div class="event-main-card-img">
+                                    <img src="public/image/event/1.png" alt="event-main-card-img">
+                                </div>
+                                <p class="m-0 py-3 text-center">May 2020</p>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-4 d-none d-md-block">
+                            <div class="event-main-card">
+                                <div class="event-main-card-img">
+                                    <img src="public/image/event/1.png" alt="event-main-card-img">
+                                </div>
+                                <p class="m-0 py-3 text-center">May 2020</p>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-4 d-none d-md-block">
+                            <div class="event-main-card">
+                                <div class="event-main-card-img">
+                                    <img src="public/image/event/1.png" alt="event-main-card-img">
+                                </div>
+                                <p class="m-0 py-3 text-center">May 2020</p>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-4 d-none d-md-block">
+                            <div class="event-main-card">
+                                <div class="event-main-card-img">
+                                    <img src="public/image/event/1.png" alt="event-main-card-img">
+                                </div>
+                                <p class="m-0 py-3 text-center">May 2020</p>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-4 d-none d-md-block">
+                            <div class="event-main-card">
+                                <div class="event-main-card-img">
+                                    <img src="public/image/event/1.png" alt="event-main-card-img">
+                                </div>
+                                <p class="m-0 py-3 text-center">May 2020</p>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-4 d-none d-md-block">
+                            <div class="event-main-card">
+                                <div class="event-main-card-img">
+                                    <img src="public/image/event/1.png" alt="event-main-card-img">
+                                </div>
+                                <p class="m-0 py-3 text-center">May 2020</p>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-4 d-none d-md-block">
+                            <div class="event-main-card">
+                                <div class="event-main-card-img">
+                                    <img src="public/image/event/1.png" alt="event-main-card-img">
+                                </div>
+                                <p class="m-0 py-3 text-center">May 2020</p>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-4 d-none d-md-block">
+                            <div class="event-main-card">
+                                <div class="event-main-card-img">
+                                    <img src="public/image/event/1.png" alt="event-main-card-img">
+                                </div>
+                                <p class="m-0 py-3 text-center"></p>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </section>
+
+        </main>
+
+        <!-- footer -->
+        <footer>
+
+            <!-- social-networks -->
+            <div class="social-networks d-flex py-4 text-center align-items-center justify-content-between px-sm-5 px-2 py-sm-3" dir="ltr">
+                <p class="social-networks-title my-auto">Social Networks</p>
+                <div class="network d-flex">
+                    <a href="#" class="network-img text-decoration-none p-3 p-sm-0 me-2 d-flex flex-column align-items-center justify-content-center">
+                        <img src="public/image/Path 4366.png" alt="aparat">
+                    </a>
+                    <a href="#" class="text-decoration-none p-3 p-sm-0 me-2 d-flex flex-column align-items-center justify-content-center"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-decoration-none p-3 p-sm-0 me-2 d-flex flex-column align-items-center justify-content-center"><i class="far fa-envelope"></i></a>
+                    <a href="#" class="text-decoration-none p-3 p-sm-0 me-2 d-flex flex-column align-items-center justify-content-center"><i class="fas fa-phone-alt"></i></a>
+                    <a href="#" class="text-decoration-none p-3 p-sm-0 me-2 d-flex flex-column align-items-center justify-content-center"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="text-decoration-none p-3 p-sm-0 d-flex flex-column align-items-center justify-content-center"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <!-- footer-final -->
+            <main class="footer-final">
+
+                <!-- section-main -->
+                <section class="section-main d-flex flex-column flex-md-row" dir="ltr">
+                    <div class="col-md-4 footer-final-right pt-4 pe-sm-5 p-2">
+                        <div class="footer-final-logo my-3 d-flex align-items-center justify-content-center mx-auto mx-md-0">
+                            <img src="public/image/A.png" alt="logo">
+                        </div>
+                        <p>Epsom Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dummy text is used in print and web industry Wolverham Epsom Dummy text is used in print and web industry and</p>
+                    </div>
+                    <div class="sales-information pe-sm-5 p-2 d-sm-none mb-4">
+                        <h5 class="mb-3">Store information</h5>
+                        <p class="mt-3"><h6>Consulting and sales:</h6>09174136374</p>
+                        <div class="mt-4">
+                            <p><h6>Tehran :</h6>Marzdaran Boulevard, Ebrahimi St., Alvand Tower, Unit 504</p>
+                            <p><h6 class="d-inline">Phone : </h6>02144383145</p>
+                        </div>
+                        <div class="mt-4">
+                            <p><h6>Shiraz :</h6>Mulla Sadra St., corner of Khalili, Anahita Building, 5th floor</p>
+                            <p><h6>Phone : </h6>07136292587</p>
+                        </div>
+                    </div>
+                    <div class="d-flex link col-sm-5 col-12">
+                        <div class="useful-link col-lg-6 col-sm-12 col-md-6 col-5 pt-sm-5 mx-2">
+                            <h6 class="me-sm-5">Useful links</h6>
+                            <ul class="list-unstyled">
+                                <li class="me-2"><a href="#" class="text-decoration-none">question and answer</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">Office sales</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">Photo Gallery</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">our products</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">about us</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">contact us</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">Invited to cooperate</a></li>
+                            </ul>
+                        </div>
+                        <div class="related-link-1 pt-sm-5">
+                            <h6 class="me-sm-5">Related Links</h6>
+                            <ul class="list-unstyled">
+                                <li class="me-2"><a href="#" class="text-decoration-none">اباد</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">Ministry of Health</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">یونسانگ</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">سولین</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">medical University Tehran</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">Shiraz university of medical sciences</a></li>
+                                <li class="me-2"><a href="#" class="text-decoration-none">Khorram University of Medical Sciences</a></li>
+                                <li class="me-2 d-md-none"><a href="#" class="text-decoration-none">Electroporation</a></li>
+                                <li class="me-2 d-md-none"><a href="#" class="text-decoration-none">Hero circuit development</a></li>
+                                <li class="me-2 d-md-none"><a href="#" class="text-decoration-none">MDF</a></li>
+                                <li class="me-2 d-md-none"><a href="#" class="text-decoration-none">Interline</a></li>
+                                <li class="me-2 d-md-none"><a href="#" class="text-decoration-none">Sigmalift</a></li>
+                                <li class="me-2 d-md-none"><a href="#" class="text-decoration-none">Dersan Teb Fars Company</a></li>
+                                <li class="me-2 d-md-none"><a href="#" class="text-decoration-none">Dentium Company</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="related-link-2 d-none d-md-block">
+                        <ul class="list-unstyled">
+                            <li class="me-2"><a href="#" class="text-decoration-none">Electroporation</a></li>
+                            <li class="me-2"><a href="#" class="text-decoration-none">Hero circuit development</a></li>
+                            <li class="me-2"><a href="#" class="text-decoration-none">MDF</a></li>
+                            <li class="me-2"><a href="#" class="text-decoration-none">Interline</a></li>
+                            <li class="me-2"><a href="#" class="text-decoration-none">Sigmalift</a></li>
+                            <li class="me-2"><a href="#" class="text-decoration-none">Dersan Teb Fars Company</a></li>
+                            <li class="me-2"><a href="#" class="text-decoration-none">Dentium Company</a></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- section-footer -->
+                <section class="section-footer mt-3 d-flex align-items-center justify-content-between" dir="ltr">
+                    <div class="sales-information ms-2 d-none d-sm-block">
+                        <h5 class="mb-3">Store information</h5>
+                        <p class="mt-3"><h6>Consulting and sales:</h6>09174136374</p>
+                        <div class="mt-4">
+                            <p><h6>Tehran :</h6>Marzdaran Boulevard, Ebrahimi St., Alvand Tower, Unit 504</p>
+                            <p><h6 class="d-inline">Phone :</h6>02144383145</p>
+                        </div>
+                        <div class="mt-4">
+                            <p><h6>Shiraz :</h6>Mulla Sadra St., corner of Khalili, Anahita Building, 5th floor</p>
+                            <p><h6>Phone : </h6>07136292587</p>
+                        </div>
+                    </div>
+                    <div class="ps-sm-5 mb-4 mb-sm-0 d-flex align-items-center justify-content-center justify-content-sm-between mx-sm-5 mx-auto">                               
+                        <div class="me-2">
+                            <img src="public/image/samandehi-ir-4_graphicshop-ir-1.png" alt="A-symbol">
+                        </div>
+                        <div>
+                            <img src="public/image/000.png" alt="A-symbol">
+                        </div>
+                    </div>
+                </section>
+                <section class="footer-text d-flex align-items-center text-center justify-content-center flex-column">
+                    <div class="line-4 mt-3"></div>
+                    <p class="my-4">All rights reserved for Mahia Tajhiz Gostar Company</p>
+                </section>
+            </main>
+        </footer>
+
+        <!-- script -->
+        <script src="public/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

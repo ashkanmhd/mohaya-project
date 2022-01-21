@@ -1,0 +1,106 @@
+/* main */
+.main-address {
+    background-color: rgb(249, 249, 249);
+    margin-top: 7.2rem;
+}
+
+/* ------------------------------------- */
+
+@media (max-width: 992px) {
+
+    .main-address {
+        margin-top: 3.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .main-address {
+        margin-top: 2.6rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .main-address {
+        margin-top: 2.3rem;
+    }
+}
+
+/* -----------------------address ------------------------- */
+
+/*-------------------------- card-profile -------------------*/
+
+.card-profile {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.card-profile > div:nth-child(1) {
+    background-color: rgb(249, 249, 249);
+}
+
+.State {
+    margin-bottom: 0;
+}
+
+.card-profile-a {
+    color: #000;
+}
+
+.card-profile-a:hover {
+    color: #346f81;
+}
+
+/* personal-address */
+
+.personal-address {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.personal-address-icon {
+    font-size: 1.3rem;
+}
+
+.address-details {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.address-details-label {
+    font-weight: 500;
+}
+
+.get-input {
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+}
+
+.get-input input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.get-input select {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.personal-address-btn {
+    border: 1px solid rgba(0, 0, 0, .2);
+    font-weight: 500;
+    color: #72BDA3;
+    border-radius: 10px;
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+@media(max-width: 576px) {
+
+    .get-input input {
+        font-size: .9rem;    
+    }
+}

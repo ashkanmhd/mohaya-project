@@ -1,0 +1,115 @@
+/* main */
+.main-stor-message {
+    margin-top: 7.2rem;
+}
+
+/* ------------------------------------- */
+
+@media (max-width: 992px) {
+
+    .main-stor-message {
+        margin-top: 3.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .main-stor-message {
+        margin-top: 2.6rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .main-stor-message {
+        margin-top: 2.3rem;
+    }
+}
+
+/* ------------------------------------------ */
+
+/* -------------------  store-message ---------------*/
+
+/*---------- card-profile --------*/
+
+.card-profile {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.card-profile > div:nth-child(1) {
+    background-color: rgb(249, 249, 249);
+}
+
+.State {
+    margin-bottom: 0;
+}
+
+.card-profile-a {
+    color: #000;
+}
+
+.card-profile-a:hover {
+    color: #346f81;
+}
+
+/* --------------- store-message -------------- */
+
+.store-message {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.store-message-icon {
+    font-size: 1.3rem;
+}
+
+/* message */
+
+.message {
+    border: 1px solid #D2D2D2;
+    border-radius: 10px;
+}
+
+.message-link,
+.message-link:hover {
+    color: #346F81;
+    white-space: nowrap;
+}
+
+/* ---------------------------------------------------------------- */
+
+@media(max-width: 1200px) {
+
+    .message-span {
+        font-size: .8rem;
+    }
+
+    .message-link {
+        font-size: .8rem;
+    }
+}
+
+@media(max-width: 768px) {
+
+    .message-span {
+        width: 370px;
+        height: 20px;
+        overflow: hidden;
+    }
+
+    .message-link {
+        font-size: .7rem;
+    }
+}
+
+@media(max-width: 576px) {
+
+    .message-span {
+        width: 300px;
+    }
+
+    .message-link {
+        margin-right: 1rem;
+    }
+}

@@ -1,0 +1,54 @@
+.price-limit {
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  border-radius: 10px;
+}
+
+#amount {
+  font-weight: bold;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+  background: #fff !important;
+  border: 0;
+  border-radius: 50% !important;
+}
+
+.price-limit-input {
+  border: 0;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.line-8 {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.price-limit-btn {
+  background-color: #2E7D32;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: .3rem 2rem;
+  border-radius: 5px;
+}
+
+.ui-widget.ui-widget-content {
+  height: .3em;
+}
+
+.ui-slider-horizontal .ui-slider-range {
+  background-color: #346F81;
+}
+
+.ui-slider .ui-slider-handle {
+  width: 1.3em !important;
+  height: 1.3em !important;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+  top: -.5em !important;
+}

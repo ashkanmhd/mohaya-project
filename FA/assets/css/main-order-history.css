@@ -1,0 +1,178 @@
+/* main */
+.main-order-history {
+    background-color: rgb(249, 249, 249);
+    margin-top: 7.2rem;
+}
+
+/* ------------------------------------- */
+
+@media (max-width: 992px) {
+
+    .main-order-history {
+        margin-top: 3.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .main-order-history {
+        margin-top: 2.6rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .main-order-history {
+        margin-top: 2.3rem;
+    }
+}
+
+/* ----------------------- order-history ------------------------- */
+
+/*-------------------------- card-profile -------------------*/
+
+.card-profile {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.card-profile > div:nth-child(1) {
+    background-color: rgb(249, 249, 249);
+}
+
+.State {
+    margin-bottom: 0;
+}
+
+.card-profile-a {
+    color: #000;
+}
+
+.card-profile-a:hover {
+    color: #346f81;
+}
+
+
+/* order-history */
+
+.order-history {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.order-history-icon {
+    font-size: 1.3rem;
+}
+
+.order-history .btn-1 {
+    background-color: rgb(71, 138, 159);
+    outline: none;
+}
+
+.order-history-btn > .btn-2,
+.order-history-btn > .btn-3 {
+    border: 1px solid rgba(0, 0, 0, .1);
+    white-space: nowrap;
+}
+
+.order-history-img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    padding: .5rem;
+}
+
+.order-history-img img {
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.product-img-special {
+    background-color: red;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: .8rem;
+    padding: 0 .4rem;
+}
+
+.order-history-btn button {
+    width: 120px;
+}
+
+.line {
+    width: 95%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+@media(max-width: 768px) {
+
+    .order-history-icon {
+        font-size: .9rem;
+    }
+
+    .order-history-btn {
+        font-size: .5rem;
+    }
+
+    .order-history-btn button {
+        width: 80px;
+    }
+
+    .order-history-title {
+        font-size: .7rem;
+    }
+}
+
+@media(max-width: 576px) {
+
+    .order-history-icon {
+        font-size: .6rem;
+    }
+
+    .order-history-title {
+        font-size: .4rem;
+    }
+
+    .item_count_input {
+        max-width: 130px;
+        height: 20px;
+        font-size: .8rem;
+    }
+
+    .minus,
+    .plus {
+        height: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .minus i,
+    .plus i {
+        margin-bottom: .3rem;
+    }
+
+    .btn i {
+        font-size: .9rem;
+    }
+} 
+
+@media(max-width: 400px) {
+
+    .order-history-text {
+        font-size: .6rem;
+    }
+
+    .order-history-btn button {
+        font-size: .4rem;
+        width: 50px;
+    }
+    
+}
